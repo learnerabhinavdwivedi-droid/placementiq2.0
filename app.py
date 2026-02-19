@@ -1,6 +1,5 @@
 import streamlit as st
 import numpy as np
-import joblib
 import pandas as pd
 import pdfplumber
 import time
@@ -300,4 +299,5 @@ if st.button("Analyze Profile Readiness", use_container_width=True):
             else: st.warning(f"{company} → {company_score}% Needs Improvement")
 
 st.markdown("---")
+
 st.markdown("<p style='text-align:center; font-size:14px;'>PlacementIQ Pro2 • HackWave 2026</p>", unsafe_allow_html=True)
