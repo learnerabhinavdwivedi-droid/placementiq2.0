@@ -1,0 +1,7 @@
+streamlit
+numpy
+joblib
+pandas
+pdfplumber
+scikit-learn
+openai
