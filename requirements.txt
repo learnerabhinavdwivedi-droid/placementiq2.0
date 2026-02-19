@@ -1,5 +1,6 @@
 streamlit
-numpy
-pandas
 pdfplumber
+pandas
+numpy
 openai
+joblib
